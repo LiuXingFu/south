@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:81:"D:\php\Apache24\htdocs\South\public/../application/index\view\index\register.html";i:1561683818;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:81:"D:\php\Apache24\htdocs\South\public/../application/index\view\index\register.html";i:1561684013;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,9 +45,6 @@
                 settime(val)
             }, 1000)
         }
-
-        /******************************************/
-
     </script>
 </head>
 <body>
@@ -56,17 +53,19 @@
         <tr>
             <td align="center">
                 <h1>
-                    注册
-                    <br />
-                    <hr />
+                    注册<br/><hr/>
                 </h1>
             </td>
         </tr>
         <tr>
-            <td><input type="text" name="username" placeholder="昵称" /></td>
+            <td>
+                <input type="text" name="username" placeholder="昵称" />
+            </td>
         </tr>
         <tr>
-            <td><input type="password" name="userpass" placeholder="账号密码" /></td>
+            <td>
+                <input type="password" name="userpass" placeholder="账号密码" />
+            </td>
         </tr>
         <tr>
             <td>

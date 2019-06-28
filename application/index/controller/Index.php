@@ -10,7 +10,7 @@ use think\Request;
 use think\Session;
 
 /**
- * 演示页面类
+ * 手机短信验证
  * Class Index
  * @package app\index\controller
  */
